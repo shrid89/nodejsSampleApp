@@ -49,7 +49,7 @@ app.get('/employee/new', function(req, res) {
         title: 'New Employee'
     });
 });
-
+console.log("addedd console.log for testing")
 //save new employee
 app.post('/employee/new', function(req, res){
     employeeProvider.save({
